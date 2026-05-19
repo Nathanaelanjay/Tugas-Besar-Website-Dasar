@@ -1,0 +1,186 @@
+/* 2372021 Nathanael A */
+* {
+  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.atas::after {
+  content: "";
+  border-bottom: 5px solid #666;
+  width: 60px;
+  display: block;
+  margin-left: 12.5%;
+}
+.ISI-ABOUT {
+  padding-top: 4%;
+  padding-right: 8%;
+  padding-left: 2%;
+  width: 100%;
+}
+
+.quote {
+  background: url("images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  padding: 100px;
+  display: block;
+}
+h3 {
+  padding-top: 5%;
+}
+.gambartur img {
+  width: 300px;
+  margin-left: 45%;
+}
+.table1 table {
+  width: auto;
+}
+.table1 table td {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  text-align: left;
+}
+.bagianbawah {
+  background-color: whitesmoke;
+}
+.akhirbgt {
+  text-align: center;
+}
+.akhirbgt p {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-bottom: 2%;
+}
+footer {
+  padding: 50px 0px 50px 0px;
+  background-color: #343a40;
+  color: #fff;
+}
+footer .layar-dalam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .layar-dalam div {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer .layar-dalam h5 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .layar-dalam .copyright {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #666;
+  text-align: center;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .atas {
+    padding-top: 20%;
+  }
+
+  .gambartur {
+    margin: auto;
+    text-align: center;
+  }
+
+  .gambartur img {
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .akhirbgt::after {
+    margin-left: 40%;
+  }
+
+  .atas::after {
+    margin-left: 0%;
+  }
+
+  .table1 {
+    padding-right: 5%;
+    padding-left: 5%;
+    overflow-x: auto;
+  }
+
+  .table1 table {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .gambartur {
+    margin-right: 10%;
+  }
+
+  .atas {
+    padding-top: 5%;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+  .gambartur {
+    margin-right: 17%;
+  }
+
+  .akhirbgt::after {
+    margin-left: 47%;
+  }
+
+  .atas {
+    padding-top: 2%;
+  }
+}
+
+/* LARGE DESKTOP */
+
+@media screen and (min-width: 1200px) {
+  .gambartur {
+    margin-left: 6%;
+  }
+
+  .akhirbgt::after {
+    margin-left: 47.5%;
+  }
+
+  .atas {
+    padding-top: 3%;
+  }
+}
+
+/* EXTRA LARGE */
+
+@media screen and (min-width: 1338px) {
+  .gambartur {
+    margin-left: 8%;
+  }
+
+  .atas {
+    padding-top: 1%;
+  }
+}

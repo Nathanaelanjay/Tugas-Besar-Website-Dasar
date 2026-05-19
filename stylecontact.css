@@ -1,0 +1,204 @@
+/* 2372021 Nathanael A */
+* {
+  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.gambar-tur {
+  text-align: center;
+}
+
+.gambar-tur img {
+  width: 300px;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+.bagianatas {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.googlemap iframe {
+  margin-bottom: 2%;
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+.bagianatas p {
+  padding-bottom: 30px;
+}
+.bagiankontak table img {
+  width: 50px;
+}
+.bagiankontak table {
+  text-align: center;
+  width: 100%;
+}
+.bagiankontak table p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.bagiankontak table h4 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.bagiankontak table h4::after {
+  content: "";
+  border-bottom: 5px solid #666;
+  width: 17%;
+  display: block;
+  margin-left: 42%;
+}
+.form {
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5%;
+}
+.form p {
+  padding-top: 20px;
+}
+.form h3::after {
+  content: "";
+  border-bottom: 5px solid #666;
+  width: 5%;
+  display: block;
+  margin-left: 47%;
+}
+.form .isiform {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+footer {
+  padding: 50px 0px 50px 0px;
+  background-color: #343a40;
+  color: #fff;
+}
+footer .layar-dalam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .layar-dalam div {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer .layar-dalam h5 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .layar-dalam .copyright {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #666;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .gambar-tur {
+    text-align: center;
+    margin: 0;
+  }
+
+  .gambar-tur img {
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  .bagianatas {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .bagianatas p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+  }
+
+  .bagiankontak {
+    overflow-x: auto;
+  }
+
+  .bagiankontak table {
+    width: 100%;
+  }
+
+  .bagiankontak table p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .bagiankontak table h4::after {
+    width: 70px;
+    margin: 10px auto;
+  }
+
+  .form {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+  }
+
+  .form .isiform {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form h3::after {
+    width: 60px;
+    margin: 10px auto;
+  }
+
+  .googlemap iframe {
+    height: 250px;
+  }
+
+  footer .layar-dalam {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .layar-dalam div {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .bagiankontak table,
+  .bagiankontak tbody,
+  .bagiankontak tr {
+    display: block;
+    width: 100%;
+  }
+
+  .bagiankontak td {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+}

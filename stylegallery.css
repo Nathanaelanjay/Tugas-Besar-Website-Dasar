@@ -1,0 +1,139 @@
+/* 2372021 Nathanael A */
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.bagian-tengah1 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 20%;
+    background-color:whitesmoke;
+    border-radius: 2%;
+    width: 60%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 2 !important;
+}
+.bagian-tengah1 h1 {
+    text-align: center;
+    
+}
+.bagian-tengah2 {
+    margin-left: 35%;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    border-radius: 2%;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container-gambar img{
+    width: 200px;
+    margin-left: 20%;
+    border-radius: 5%;
+    border-style:dashed;
+}
+.container-gambar h5 {
+    text-align: center;
+}
+.container-gambar p {
+    text-align: center;
+}
+
+.bagian-tengah3{
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-color:whitesmoke;
+    border-radius: 2%;
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bagian-tengah3 .container-wisata img{
+    width: 300px;
+    padding-bottom: 5%;
+    border-radius: 5%;
+}
+.sewa-kapal{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.card {
+    color: #3e69a9;
+}
+.card img {
+    height: 200px;
+}
+
+nav {
+    position: sticky;
+    top : 0;
+}
+footer {
+    padding: 50px 0px 50px 0px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  footer .layar-dalam {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .layar-dalam div {
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  footer .layar-dalam h5 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer .layar-dalam .copyright {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #666;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px){
+
+    .bagian-tengah1,
+    .bagian-tengah2,
+    .bagian-tengah3{
+        width: 90% !important;
+        margin: 20px auto !important;
+        padding: 20px !important;
+    }
+
+    .container-gambar img{
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .container-wisata img{
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .card{
+        width: 100% !important;
+    }
+
+    .card img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .sewa-kapal{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+}
